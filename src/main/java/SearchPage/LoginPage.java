@@ -16,6 +16,7 @@ public class LoginPage {
     By lName = By.xpath("//input[@placeholder='Last Name']");
     By pCode = By.xpath("//input[@placeholder='Post Code']");
     By button = By.xpath("//button[text()='Add Customer']");
+    
 
     public void addCustomers(String firstName, String lastName, String postCode){
         driver.findElement(bmLogin).click();
